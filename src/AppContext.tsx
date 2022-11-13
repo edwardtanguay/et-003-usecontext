@@ -14,7 +14,7 @@ interface IAppProvider {
 }
 
 const booksUrl = 'https://edwardtanguay.vercel.app/share/techBooks.json';
-const mockApiWaitSeconds = 1;
+const mockApiWaitSeconds = 3;
 
 export const AppContext = createContext<IAppContext>({} as IAppContext);
 
