@@ -5,11 +5,15 @@ import { PageBooks } from './components/PageBooks';
 import { PageFlashcards } from './components/PageFlashcards';
 import { useContext } from 'react';
 import { AppContext } from './AppContext';
+import { Helmet } from 'react-helmet';
 
 function App() {
 	const { appTitle } = useContext(AppContext);
 	return (
 		<div className="App">
+			<Helmet>
+				<title>{appTitle}</title>
+			</Helmet>
 			<h1>{appTitle}</h1>
 			<nav>
 				<NavLink to="/welcome">Welcome</NavLink>

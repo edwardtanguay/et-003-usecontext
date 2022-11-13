@@ -11,7 +11,7 @@ interface IAppProvider {
 export const AppContext = createContext<IAppContext>({} as IAppContext);
 
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
-	const appTitle = 'The Berlin Study Group';
+	const appTitle = 'Berlin Study Group';
 
 	return (
 		<AppContext.Provider
