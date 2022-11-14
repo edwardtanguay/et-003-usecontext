@@ -1,29 +1,6 @@
-# blank-vite-dark-menu
+# et-003-usecontext
 
-This is a minimal React site created with Vite with an implemented React Router menu.
+This projects shows you how to implement useContext in an app with multiple pages and data sources.
 
-![grafik](https://user-images.githubusercontent.com/446574/200960596-bdc5bd34-ca8c-4c03-9c0f-e67e9bf7d111.png)
+For instructions, see: [HOWTO: Implement useContext in an app with multiple pages and data sources](https://edwardtanguay.vercel.app/howtos?id=636)
 
-## includes:
-
-- TypeScript
-- Sass
-- React Router (v6) 
-- only one Sass file (`App.scss`) - the file `index.css` was deleted
-- CLI with page component creator: `npm run cp`
-- page-load flicker bug fixed in index.html:
-```
-  <style>
-    body {
-      background-color: #333;
-    }
-  </style>
-```
-
-## how to install
-
-- download zip
-- copy all files to new directory, e.g. `/home/yourname/projects/site001`
-- open VSCode in that directory (`code .`)
-- `npm i`
-- `npm run dev`
