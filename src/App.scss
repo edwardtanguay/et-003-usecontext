@@ -8,6 +8,10 @@ body {
 		color: rgb(209, 168, 85);
 	}
 
+	a {
+		color: rgb(209, 166, 85);
+	}
+
 	nav {
 		background-color: #222;
 		padding: .5rem;
@@ -51,6 +55,30 @@ body {
 						font-size: 1.1rem;
 						font-style: italic;
 					}
+				}
+			}
+		}
+	}
+
+	.pageFlashcards {
+		.flashcards {
+			.flashcard {
+				background-color: #222;
+				margin-bottom: 1rem;
+				padding: 1rem;
+				width: 39rem;
+				border-radius: .5rem;
+
+				.front {
+					font-size: 1.2rem;
+					margin-bottom: 1rem;
+					color: rgb(219, 198, 160);
+					cursor: pointer;
+				}
+
+				.back {
+					color: brown;
+					font-size: 1.1rem;
 				}
 			}
 		}

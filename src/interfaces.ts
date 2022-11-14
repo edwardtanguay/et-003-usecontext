@@ -5,3 +5,11 @@ export interface IBook {
 	description: string;
 	language: string;
 }
+
+export interface IFlashcard {
+	id: number;
+	category: string;
+	front: string;
+	back: string;
+	isOpen: boolean;
+}
